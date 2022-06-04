@@ -77,7 +77,6 @@ img{
 
 .personal-conteiner input, select{
     width: 47%;
-    
 }
 
 .personal-conteiner div{
@@ -108,4 +107,50 @@ button{
 
 .checkbox-cont input{
     margin-right: 5px;
+}
+
+@media screen and (max-width: 900px){
+    .inform-cont{
+        flex-direction: column;
+        margin-right: 20px;
+    }
+
+    form{
+        max-width: 900px;
+        min-width: 600px;
+    }
+
+    .personal-conteiner{
+        margin: 40px 0 0 20px;
+        width: calc(100% - 20px);
+    }
+
+    .registr-conteiner{
+        width: calc(100% - 20px);
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .password-conteiner, 
+    .personal-conteiner div{
+        flex-direction: column;
+    }
+
+    form{
+        max-width: 600px;
+        min-width: 300px;
+    }
+
+    .personal-conteiner input, select, 
+    .password-conteiner .item{
+        width: 100%; 
+        margin-bottom: 10px;
+    }
+
+    .checkbox-cont{
+        margin-right: 20px;
+    }
+  
+
 }
