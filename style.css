@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form{
+    padding: 25px 0;
+    box-shadow: 1px 0px 22px 2px rgba(34, 60, 80, 0.36);
+    max-width: 1200px;
+    min-width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-conteiner{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+label{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.registr-conteiner{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 20px;
+}
+
+input, select{
+    border: none;
+    border-bottom: 1px rgb(67, 66, 66) solid;
+    color: gray;
+    padding: 5px 10px;
+    outline: none;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+    margin-right: 7px;
+}
+
+.registr-conteiner input{
+    width: calc(100% - 37px);
+}
+
+.password-conteiner .item{
+    width: 45%;
+}
+
+.password-conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.inform-cont{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.personal-conteiner{
+    width: 45%;
+    margin-right: 20px;
+}
+
+.personal-conteiner input, select{
+    width: 47%;
+    
+}
+
+.personal-conteiner div{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox-cont{
+    margin: 0 0 20px 20px;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: rgb(16, 173, 173);
+    border-radius: 3px;
+    padding: 7px;
+    width: 150px;
+    outline: none;
+    border: none;
+    color: white;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.checkbox-cont input{
+    margin-right: 5px;
+}

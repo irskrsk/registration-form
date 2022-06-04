@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-conteiner">
+        <form action="/">
+            <div class="inform-cont">
+                <div class="registr-conteiner">
+                    <h2>Registration form</h2>
+                    <label for="username">
+                        <img src="icons/username.png" alt="">
+                        <input type="text" name="username" id="username" placeholder="Username">
+                    </label>
+                    <label for="email">
+                        <img src="icons/email.png" alt="">
+                        <input type="email"  name="email" id="email" placeholder="Email adress">
+                    </label>
+                   <div class="password-conteiner">
+                        <label class="item" for="password">
+                            <img src="icons/pswd.png" alt="">
+                            <input  type="password" name="password" id="password" placeholder="Password">
+                        </label>
+                        <input class="item" type="password" name="confirmPassword" placeholder="Confirm password"> 
+                   </div>
+                </div>
+                <div class="personal-conteiner">
+                    <h2>Personal details</h2>
+                    <div>
+                        <input type="text" name="firstName" placeholder="First name">
+                        <input type="text" name="lastName" placeholder="Last name">
+                    </div>
+                    <div>
+                        <select name="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                        <input type="text" placeholder="MM/DD/YYYY"
+                            onfocus="(this.type='date')" onblur="(this.type='text')">
+                    </div>
+                </div>
+            </div>
+            <div class="checkbox-cont">
+                <label for="offers">
+                    <input type="checkbox" name="offers" id="offers">I want to receive news and special offers
+                </label>
+                <label for="agree">
+                    <input type="checkbox" name="agree" id="agree">I agree with the terms and conditions
+                </label>
+            </div>
+            <hr>
+            <button type="submit">SUBMINT</button>
+        </form>
+    </div>
+</body>
+</html>
